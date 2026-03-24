@@ -26,7 +26,7 @@ Launch terminal (Linux / Windows CMD / PowerShell)
 whois testphp.vulnweb.com
 ````
 
-### 🔎 Output Includes:
+### Output Includes:
 
 * Registrar details
 * Domain creation & expiry date
@@ -39,13 +39,10 @@ whois testphp.vulnweb.com
 ```bash
 nslookup testphp.vulnweb.com
 ```
-
-### 🔎 Output Includes:
+ Output Includes:
 
 * IP address
 * DNS resolution details
-
----
 
 ### 4. Retrieve Specific DNS Records
 
@@ -54,3 +51,12 @@ nslookup testphp.vulnweb.com
 ```bash
 nslookup -type=ns testphp.vulnweb.com
 ```
+
+#### Mail Exchange Records:
+
+```bash
+nslookup -type=mx testphp.vulnweb.com
+```
+## Mitigation & Security Considerations
+
+
