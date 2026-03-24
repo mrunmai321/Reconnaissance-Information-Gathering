@@ -65,4 +65,8 @@ Reconnaissance is a **passive activity**, but organizations can reduce exposure 
 * Limiting publicly available domain information
 * Using split-horizon DNS to restrict internal data visibility
 
+## References
+* [https://www.acunetix.com/vulnerable-web-apps/](https://www.acunetix.com/vulnerable-web-apps/)
+* [https://linux.die.net/man/1/whois](https://linux.die.net/man/1/whois)
+* [https://linux.die.net/man/1/nslookup](https://linux.die.net/man/1/nslookup)
 
