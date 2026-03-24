@@ -15,4 +15,42 @@ This information helps in understanding the target environment before performing
 ##  Tools Used
  whois  
 - nslookup  
+##  Steps to Reproduce
+### 1. Open Terminal
+Launch terminal (Linux / Windows CMD / PowerShell)
 
+---
+
+### 2. Run WHOIS Command
+```bash
+whois testphp.vulnweb.com
+````
+
+### 🔎 Output Includes:
+
+* Registrar details
+* Domain creation & expiry date
+* Registrant information
+
+---
+
+### 3. Run NSLOOKUP Command
+
+```bash
+nslookup testphp.vulnweb.com
+```
+
+### 🔎 Output Includes:
+
+* IP address
+* DNS resolution details
+
+---
+
+### 4. Retrieve Specific DNS Records
+
+#### Name Server Records:
+
+```bash
+nslookup -type=ns testphp.vulnweb.com
+```
