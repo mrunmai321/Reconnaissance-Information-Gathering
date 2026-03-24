@@ -12,4 +12,7 @@ Using basic networking tools like `whois` and `nslookup`, we can gather:
 - DNS records  
 - Name server information  
 This information helps in understanding the target environment before performing further security testing.
+##  Tools Used
+ whois  
+- nslookup  
 
