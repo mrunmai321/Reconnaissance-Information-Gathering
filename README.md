@@ -59,4 +59,10 @@ nslookup -type=mx testphp.vulnweb.com
 ```
 ## Mitigation & Security Considerations
 
+Reconnaissance is a **passive activity**, but organizations can reduce exposure by:
+
+* Enabling WHOIS privacy protection
+* Limiting publicly available domain information
+* Using split-horizon DNS to restrict internal data visibility
+
 
